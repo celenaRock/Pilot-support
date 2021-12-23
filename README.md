@@ -56,25 +56,25 @@ Test 6: Certificate is valid and trusted, connection is secure, resources are se
 Test 7: Chrome Lighthouse test returns 100%. Suggests removing non-functional JavaScript for 0.15s saving
 Test 8: General visual
 Result: Employee ID 4 is actually -4
-	Out of Scope:
-		System Integration testing
-		Regression testing
-	Items not tested: None	
+	-Out of Scope:
+		-System Integration testing
+		-Regression testing
+	-Items not tested: None	
 Metrics: 5 out of 5 
 Test Environment and Tools: Windows 11, Chrome 96.0.4664.45
 Lessons Learned:
-	Chrome has some testing tools built in
-	Testing may uncover unexpected side effects that force you to go back and redo the tests
+	-Chrome has some testing tools built in
+	-Testing may uncover unexpected side effects that force you to go back and redo the tests
 Recommendations:
-	Add email field
-	Change Employee ID 4
-	Restrict entry length and use of special characters
+	-Add email field
+	-Change Employee ID 4
+	-Restrict entry length and use of special characters
 Best Practices:
-	Restricting entry of special characters prevents use of unwanted scripting commands and reduces the likelihood of bad data being entered into the system either intentionally or unintentionally.
+	-Restricting entry of special characters prevents use of unwanted scripting commands and reduces the likelihood of bad data being entered into the system either intentionally or unintentionally.
 Exit Criteria: 
-	When all functions have been tested or allotted time is complete
+	-When all functions have been tested or allotted time is complete
 Conclusion:
-	Employee Manager is a solid performer that needs a few changes to achieve perfection. Add an email field, make all the entry fields sensitive to string length and content, disallow entering null data.
+	-Employee Manager is a solid performer that needs a few changes to achieve perfection. Add an email field, make all the entry fields sensitive to string length and content, disallow entering null data.
 Definitions, Acronyms, Abbreviations: N/A
 
 
