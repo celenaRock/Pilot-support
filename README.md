@@ -40,41 +40,54 @@ Test Document:
 Purpose: To test the XYZ Company Employee Manager app for functionality
 Application Overview: The Employee Manager app allows the user to enter employee data in the form of an employee card containing field for name, phone number, and employee title. Employees are given an employee ID number that cannot be changed.
 Testing Scope:
-	In-Scope: 
+	In-Scope:
+	
 Entering data, saving data, basic functionality, security check
 Test 1: Enter null data 
 Result: Entering blank name deletes employee but leaves blank where employee name was. Entering blank data in other forms has no effect. 
+
 Test 2: Entering incorrect phone number
 Result: Entering overly long string of numbers or entering letters is not prevented, although console appears to detect “Uncaught RangeError: Maximum call stack size exceeded”
 Test 3: Entering long string length in title
 Result: No limits on string length in title
+
 Test 4: Entering special characters
 Result: Special characters can be entered for name, phone number and title without restriction
+
 Test 5: Using cancel button
 Result: Cancel button works
+
 Test 6: Certificate is valid and trusted, connection is secure, resources are served securely
+
 Test 7: Chrome Lighthouse test returns 100%. Suggests removing non-functional JavaScript for 0.15s saving
+
 Test 8: General visual
 Result: Employee ID 4 is actually -4
 	-Out of Scope:
 		-System Integration testing
 		-Regression testing
 	-Items not tested: None	
+	
 Metrics: 5 out of 5 
 Test Environment and Tools: Windows 11, Chrome 96.0.4664.45
+
 Lessons Learned:
 	-Chrome has some testing tools built in
 	-Testing may uncover unexpected side effects that force you to go back and redo the tests
+	
 Recommendations:
 	-Add email field
 	-Change Employee ID 4
 	-Restrict entry length and use of special characters
+	
 Best Practices:
 	-Restricting entry of special characters prevents use of unwanted scripting commands and reduces the likelihood of bad data being entered into the system either intentionally or unintentionally.
+	
 Exit Criteria: 
 	-When all functions have been tested or allotted time is complete
 Conclusion:
 	-Employee Manager is a solid performer that needs a few changes to achieve perfection. Add an email field, make all the entry fields sensitive to string length and content, disallow entering null data.
+	
 Definitions, Acronyms, Abbreviations: N/A
 
 
